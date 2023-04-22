@@ -1,3 +1,4 @@
+""" ex_4_0.py """
 try:
     from src.util import get_data_file_path
 except ImportError:
@@ -18,5 +19,5 @@ def get_shutdown_events(logfile):
 
 
 # >>>> The code below will call your function and print the results
-if __name__ == "__main__":
+if _name_ == "_main_":
     print(f"{get_shutdown_events(FILENAME)=}")
